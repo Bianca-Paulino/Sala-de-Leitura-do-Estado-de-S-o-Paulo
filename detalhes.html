@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+ <meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <link rel="stylesheet" href="style.css">
+
+
+ <title>Canto de leitura</title>
+
+    </head>
+    
+     <body>
+        <header>
+            <h1>Canto da leitura</h1>
+
+            <nav>
+                <a href="#">Explorar gênero</a>
+                <a href="index.html">Voltar a página inicial</a>
+                <a href="cadastro.html">Cadastrar Livros</a>
+                <a href="emprestimos.html">Livros alugados</a>
+            </nav>
+
+        </header>
+
+        <main>
+            <section>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOBplEjwTaKa3wL3wIysRt-j9q0y8KmowJr3YpDj3WRg&s=10" alt="Dracula">
+                    <button>Alugar</button>
+                    <button>Lista de espera</button>
+                </div>
+
+                <div>
+                    <h1>Drácula</h1>
+                    <p>de <a href="#">Bram Stoker</a></p>
+                    <p>12 lidos</p>
+                    <p>6 querem ler</p>
+                </div>
+
+                <div>
+                    <span>Ficção</span>
+                    <span>Terror</span>
+                </div>
+            </section>
+        </main>
+        <div class="modal">
+            <form>
+                <label>
+                    Titulo:
+                    <input type="text" value="Drácula" readonly>
+                </label>
+                
+                <label>
+                    Nome do leitor:
+                    <input type="text" placeholder="Ex:Bruna queiroz"
+                </label>
+
+                <label>
+                    Data da Retirada:
+                    <input type="date">
+                </label>
+
+                <label>
+                    Data prevista de devolução:
+                    <input type="date">
+                </label>
+
+                <button type="submit">Confirmar</button>
+                <button type="button">Cancelar</button>
+            </form>
+        </div>
+     </body>
+
+</html>
